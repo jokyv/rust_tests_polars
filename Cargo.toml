@@ -1,0 +1,7 @@
+[package]
+name = "polars_tests"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+polars = { git = "https://github.com/pola-rs/polars", features = ["csv-file"] }
